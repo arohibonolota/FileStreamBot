@@ -12,18 +12,18 @@ db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 
 START_TEXT = """
 <i>Hey, </i>{}\n\n
-<i>Click on help to get more information </i>\n
-<i><b>Waring</b></i>\n
-<b>Porn will lead you to ban </b>\n\n
-<i><b>Maintained by :</b>@dumbhuman</i>"""
+Click on help to get more information.\n
+<b><u>WARNING</u></b>\n
+<b>Porn will lead you to direct ban.</b>\n\n
+<b>Maintained by :</b>@dumbhuman"""
 
 HELP_TEXT = """
 <i>- Send any file from telegram or your storage,</i>
-<i>- we will provide you a external download link ! </i>
+<i>- We will provide you a external download link ! </i>
 <i>- Add me in your channel if you want to</i>
 <i>- This link provides the fastest speed possible </i>\n
 <u><b> WARNING</b></u>\n
-<b>Porn contents will lead you to ban.</b>\n
+<b>Porn contents will lead you to direct ban.</b>\n
 <i>Contact developer or report bugs</i> <b>: <a href='https://t.me/dumbhuman'> Mahim ~</a></b>"""
 
 ABOUT_TEXT = """
