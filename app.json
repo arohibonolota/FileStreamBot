@@ -1,0 +1,98 @@
+{
+  "name": "FileStreamBot",
+  "description": "A Pyrogram Telegram bot to Stream Telegram files to web. @GreyMatter_bots",
+  "keywords": [
+      "telegram",
+      "stream",
+      "web",
+      "pyrogram",
+      "aiohttp",
+      "python",
+      "plugin",
+      "modular",
+      "media"
+    ],
+  "repository": "https://github.com/GreyMatter658/FileStreamBot/tree/main",
+  "success_url": "/",
+  "logo": "https://i.ibb.co/ZJzJ9Hq/link-3x.png",
+  "website": "avipatilweb.ml",
+  "env": {
+      "ENV": {
+          "description": "Set this to True if you don't want to crash the bot",
+          "value": "True"
+      },
+      "APP_NAME": {
+          "description": "FileStreamBot"
+      },
+      "API_ID": {
+          "description": "20133244"
+      },
+      "API_HASH": {
+          "description": "3721a1bc0ea1c2726b5c6fa3b2f36504"
+      },
+      "BOT_TOKEN": {
+          "description": "6139225268:AAH6WZmSba2Yz27XSZw-JBtu_zLN6Vtizfw"
+      },
+      "BIN_CHANNEL": {
+          "description": "-1001868627372"
+          
+      },
+      "PING_INTERVAL": {
+          "description": "Add Ping Interval Default Is 500",
+          "required": false
+      },
+      "DATABASE_URL": {
+          "description": "mongodb+srv://arohibonolota:8AgMV7DFj4IflSr8@cluster0.4ct37tw.mongodb.net/?retryWrites=true&w=majority"
+      },
+      "OWNER_ID": {
+          "description": "5495677873"
+      },
+      "BANNED_CHANNELS": {
+          "description": "Put IDs of Banned Channels where bot will not work. You can add multiple IDs & separate with Space.",
+          "required": false
+      },
+      "UPDATES_CHANNEL": {
+          "description": "Put a Public Channel Username, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.",
+          "required": false
+          
+      },
+      "SLEEP_THRESHOLD": {
+          "description": "Floodwait Sleep timer. Read the readme for more info about this var",
+          "required": false
+      },
+      "WORKERS": {
+          "description": "No. of workers that is to be assigned. Read the readme for more info about this var",
+          "required": false
+      },
+      "PORT": {
+          "description": "Port that you want your webapp to be listened to. Read the readme for more info about this var",
+          "required": false
+      },
+      "NO_PORT": {
+          "description": "If you don't want your port to be displayed. Read the readme for more info about this var",
+          "value": "False",
+          "required": false
+      },
+      "BIND_ADRESS": {
+          "description": "Read the readme for more info about this var",
+          "required": false
+      },
+      "FQDN": {
+          "description": "Read the readme for more info about this var",
+          "required": false
+      },
+      "SESSION_NAME": {
+          "description": " Session Name for Bot [ Add Moksh_b658 ]",
+          "required": false
+      }
+  },
+  "buildpacks": [{
+      "url": "heroku/python"
+    }],
+  "formation": {
+      "web": {
+          "quantity": 1,
+          "size": "eco"
+      }
+  }
+}
